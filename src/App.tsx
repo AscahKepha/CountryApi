@@ -4,6 +4,8 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { mockCountries } from '../src/data/mockCountries'; // Import mock data
 import CountryGrid from './components/countries/CountryGrid'; // Import the new CountryGrid component
 import type { Country } from '../src/types'; // Import the Country interface
+import './App.css'; // Import global styles
+
 
 // Main App Component
 const App: React.FC = () => {
